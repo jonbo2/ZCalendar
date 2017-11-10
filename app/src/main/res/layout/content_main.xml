@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="eu.jonbo.zcalendar.MainActivity"
-    tools:showIn="@layout/main_activity">
+    tools:showIn="@layout/main_activity"
+    android:id="@+id/content_main">
+
+    <eu.jonbo.zcalendar.PanelHeader
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:textSize="16dp"
+        android:textColor="@color/calendar_textcolor"/>
+
+    <RelativeLayout
+        android:id="@+id/navigation_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header">
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

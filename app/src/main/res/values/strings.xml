@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">ZCalendar</string>
     <string name="title_activity_main">MainActivity</string>
+
+    <string-array name="calendarviews">
+        <item>Year</item>
+        <item>Month</item>
+        <item>Week</item>
+        <item>Day</item>
+        <item>Agenda</item>
+    </string-array>
+    <string name="menu_month">Month</string>
 </resources>
